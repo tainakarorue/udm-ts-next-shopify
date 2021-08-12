@@ -1,3 +1,20 @@
+## shopify
+
+mail:
+tainakarorue@gmail.com
+pass
+taiyakiumai
+shop name:
+Rorue-Store
+
+## 仕様切り替え
+
+.env.local
+本番環境
+NEXT_PUBLIC_FRAMEWORK=shopify
+ローカル環境
+NEXT_PUBLIC_FRAMEWORK=shopify_local
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
