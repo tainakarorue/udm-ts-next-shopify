@@ -10,6 +10,12 @@ Rorue-Store
 ## 仕様切り替え
 
 .env.local
+
+NEXT_PUBLIC_FRAMEWORK=shopify
+NEXT_PUBLIC_LOCAL_STORE_DOMAIN=http://localhost:4000/graphql
+NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN=https://rorue-store.myshopify.com/api/2021-07/graphql.json
+NEXT_PUBLIC_SHOPIFY_STOREFRONT_ACCESS_TOKEN=a8a364c253e9e68fa61e198c1644a0ed
+
 本番環境
 NEXT_PUBLIC_FRAMEWORK=shopify
 ローカル環境
